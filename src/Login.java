@@ -50,6 +50,7 @@ public class Login extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setAlwaysOnTop(true);
         setBackground(new java.awt.Color(0, 0, 0));
         setUndecorated(true);
         setResizable(false);
@@ -107,7 +108,7 @@ public class Login extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(102, 102, 102));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("Sign Up");
+        jLabel3.setText("Login");
 
         jTextField1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(51, 51, 51));
@@ -241,6 +242,7 @@ public class Login extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextField1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1KeyTyped
