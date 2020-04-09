@@ -53,16 +53,5 @@ class Database{
       }
 }
 
-public class Lab {
-    
-        
-    public static void main(String[] args) {
-       
-        //new Login().setVisible(true);
-        Database db = new Database();
-        db.insertInto("cs", 1,"cl",20);
 
-        
-    }
     
-}
